@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class LegrandAutomationAssignment {
+public class Assignment {
 
 	public static void main(String[] args) throws InterruptedException {
 
@@ -20,7 +20,7 @@ public class LegrandAutomationAssignment {
 
 		driver.findElement(By.id("signin2")).click();
 		Thread.sleep(3000);
-		driver.findElement(By.id("sign-username")).sendKeys("sonamjainsjtest2690julie");
+		driver.findElement(By.id("sign-username")).sendKeys("sonamjainsjtest2690");
 		driver.findElement(By.cssSelector("input[type=password]")).sendKeys("Jain@123");
 		driver.findElement(By.xpath("//button[@onclick='register()']")).click();
 		
@@ -32,7 +32,7 @@ public class LegrandAutomationAssignment {
 
 		driver.findElement(By.cssSelector("a[id=login2]")).click();
 		Thread.sleep(3000);
-		driver.findElement(By.cssSelector("input[id=loginusername]")).sendKeys("sonamjainsjtest2690julie");
+		driver.findElement(By.cssSelector("input[id=loginusername]")).sendKeys("sonamjainsjtest2690");
 		driver.findElement(By.cssSelector("input[id=loginpassword]")).sendKeys("Jain@123");
 		driver.findElement(By.xpath("//button[@onclick='logIn()']")).click();
 		Thread.sleep(3000);
@@ -55,7 +55,7 @@ public class LegrandAutomationAssignment {
 
 		driver.findElement(By.id("signin2")).click();
 		Thread.sleep(3000);
-		driver.findElement(By.id("sign-username")).sendKeys("sonamjainsjtest2690julie");
+		driver.findElement(By.id("sign-username")).sendKeys("sonamjainsjtest2690");
 		driver.findElement(By.cssSelector("input[type=password]")).sendKeys("Jain@123");
 		Thread.sleep(3000);
 		driver.findElement(By
